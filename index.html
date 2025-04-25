@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-y6h1iKqRAvVdQZKAXYY1BpCuKm8QFd4XeZjbi0TydKwLbV5KjZCIb8OegZWZnnhA3/9lbB3kMLcyXJMNsb77JQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Razcof - Solutions</title>
+
+	<style type="text/css">
+		html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+		#link{
+		
+			font-size: 25px;
+			font-weight: bold;
+             margin-left: 70%;
+		}
+        #link:hover{
+            color:grey ;
+        }
+        #imagem1{
+            height: 80%;
+            width: 60%;
+            margin-right: 10%;
+        }
+        h1{
+            font-size: 90px;
+            font-weight: bold;
+           color: #2663FF;
+           margin-left: 5%;
+        }
+        .solutions{
+            color: black;
+        }
+        .visao{
+            color: black;
+        }
+        .visao{
+            font-weight: normal;
+            font-size: 60px;
+        }
+        #ver{
+            width: 20%;
+            height: 3rem;
+            background-color: #2663FF;
+        }
+
+      .ver-mais{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+      }
+      
+      #servicos{
+        margin-top: 4rem;
+        background-color: #2663FF;
+      }
+      .card-servico{
+        width: 22rem;
+        height: 30rem;
+        background-color: #2663FF;
+        margin-left: 50px;
+        box-shadow:  0 0 20px white;
+        margin-top: 3rem;
+      }
+      .icon-posicao{
+        margin-left: 10%;
+        margin-right: 50%;
+      }
+      .descricao{
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        color: white;
+      }
+      .descricao-planos{
+         margin-top: 2rem;
+        font-size: 1rem;
+        text-align: center;
+        text-align: justify;
+      
+      }
+      .card-plano{
+        width: 22rem;
+        height: 30rem;
+        margin-left: 50px;
+        box-shadow:  0 0 20px #2663FF;
+        margin-top: 3rem;
+      }
+      .plano{
+        text-align: center;
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+      }
+      .card-contacto{
+         width: 40rem;
+        height: 27rem;
+        background-color: #2663FF;
+        margin-left: 17rem;
+        box-shadow:  0 0 20px white;
+        margin-top: 3rem;
+        border-radius: 2rem;
+
+      }
+      .navegacao:hover{
+        opacity: 0.5;
+      }
+      #footer{
+        background-color: #2663FF;
+      }
+      i{
+        color: white;
+      }
+    
+ </style>
+</head>
+<body>
+
+<!--Links de navegação-->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="link">
+    <li class="nav-item">
+    <a class="nav-link navegacao"  href="#sobre" style="color: #2663FF;">Sobre</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link navegacao" href="#servicos" style="color: #2663FF;">Serviços</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link navegacao" href="#contacto" style="color: #2663FF;">Contactos</a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+<!--Parte inicial do site-->
+<div class="card mb-3 border border-white">
+
+<div class="d-flex align-items-center justify-content-center me-3">
+
+    <div class="col-md-4 justify-content-center" style="margin-left: 18.75rem">
+    <h1 >Razcof 
+    <span class="solutions">Solutions</span>
+    <div class="visao">
+    <span>Automatizamos</span>
+    <span>os seus problemas</span>
+    </div>
+    </h1>
+    </div>
+
+    <div class="col-md-8 justify-content-center" >
+      <div class="card-body" >
+        <img src="imagem1.png" id="imagem1" alt="Imagem de um programador">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  
+<div class="justify-content-center" style="text-align: center;">
+ <a href="#servicos"> <button type="button" id="ver" style="" class="btn rounded-pill">
+   <span class="ver-mais">Ver Mais</span>
+   </button></a> 
+</div>
+  
+<section id="servicos">
+    <br><br>
+    <h2 style="
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+      ">Nossos Serviços</h2>
+
+<div class="row div-servicos justify-content-center">
+
+    <div class="card border border-white card-servico rounded-0">
+  <div class="card-body">
+     <img src="ethernet-icon.png" class="icon-posicao">
+
+     <p class="descricao">Fazemos a montagem 
+de redes de computadores para a sua empresa.</p>
+  </div>
+</div>
+<br><br><br>
+
+ <div class="card border border-white card-servico rounded-0">
+  <div class="card-body">
+    <img src="dev-icon.png" class="icon-posicao">
+    <p class="descricao">Criamos páginas web 
+para sua empresa se 
+sobresair.</p>
+  </div>
+</div>
+<br><br><br>
+
+ <div class="card border border-white card-servico rounded-0">
+  <div class="card-body">
+     <img src="laptop-icon.png" class="icon-posicao">
+     <p class="descricao">Fazemos a montagem 
+de redes de computadores para a sua empresa.</p>
+  </div>
+</div>
+
+</div>
+<br><br><br>
+</section>
+
+<section>
+    <h2 style="
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-top: 2.5rem;
+      ">Nossos Planos</h2>
+
+<div class="row justify-content-center">
+
+ <div class="card border border-white card-plano rounded-0">
+    <h5 class="plano">Plano Básico</h5>
+    <hr class="border border-1 border-dark opacity-100 w-50 mx-auto" >
+
+  <div class="card-body">
+    <p class="descricao-planos">Tenha acesso a metade dos nossos
+ serviços com metades das 
+funcionalidades de forma eficiente 
+e com assistencia tecnica.</p>
+    <p> <img src="check.png">Assistencia garantida</p>
+     <p> <img src="check.png">Acesso a todos os serviços</p>
+      <p> <img src="check.png">Metade das Funcionalidades</p>
+    
+  </div>
+</div>
+
+ <div class="card border border-white card-plano rounded-0">
+     <h5 class="plano">Plano Completo</h5>
+     <hr class="border border-1 border-dark opacity-100 w-50 mx-auto" >
+  <div class="card-body">
+     <p class="descricao-planos">Acesso a todos os serviços com
+ todas as funcionalidades
+ e modolos.</p>
+    <p> <img src="check.png">Todas das Funcionalidades</p>
+  </div>
+</div>
+
+</div>
+</div>
+<br>
+</section>
+
+<section id="contacto">
+    <h2 style="
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-top: 2.5rem;
+      ">Solicite os Nossos Serviços</h2>
+
+<p style="margin-left: 10rem;font-size: 1.5rem;margin-top: 2rem;">Preencha o nosso formulário de solicitação</p>
+
+
+<div class="card border border-white card-contacto">
+  <div class="card-body">
+    <br>
+<div class="row justify-content-center"> 
+<div class="d-flex align-items-center mb-3" style="margin-left: 6rem;">
+  <label for="nome" class="form-label me-3" style="color: white; font-size: 1.5rem;">
+    Nome
+  </label>
+  <input type="email" class="form-control rounded-0" id="nome" style="width: 25rem;">
+</div>
+
+       <hr class="border border-0.5 border-white opacity-100 mx-auto" style="width: 35rem" >
+
+<div class="d-flex align-items-center mb-3" style="margin-left: 6rem;">
+  <label for="nome" class="form-label me-3" style="color: white; font-size: 1.5rem;">
+    Email
+  </label>
+  <input type="email" class="form-control rounded-0" id="nome" style="width: 25rem;">
+</div>
+
+       <hr class="border border-0.5 border-white opacity-100 mx-auto" style="width: 35rem" >
+
+<div class="d-flex align-items-center mb-3" style="margin-left: 6rem;">
+  <label for="nome" class="form-label me-3" style="color: white; font-size: 1.5rem;">
+  Mensagem
+  </label>
+  <textarea type="email" class="form-control rounded-0" id="nome" style="width: 25rem;height:10rem;">
+  </textarea>
+</div>
+
+<div class="col-lg-12  ">
+   <button type="button" id="ver" style="text-align: center;margin-left: 45%" class="btn rounded-0 border border-white">
+   <span class="ver-mais">Enviar</span>
+   </button>
+</div>
+
+</div> 
+
+  </div>
+  
+</div>
+
+
+
+
+</div> 
+</section>
+
+<section id="sobre">
+    <br>
+    <h2 style="
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-top: 2.5rem;
+      ">Sobre Nós</h2>
+<div class="row justify-content-center"> 
+<div class="d-flex align-items-center" style="margin-left: 6rem;">
+
+
+<img src="imagem 2.png">
+<p style="text-align: center;text-align: justify;margin-right: 6rem;font-size: 1.5rem;">
+    Nós somos uma empresa de tecnologia com 
+4 anos no mercado, somos especializados 
+em trazer soluções inovadores para os nossos
+ clientes, os nossos serviçoes incluem desde 
+softwares genéricos até softwares sobre 
+encomendas. 
+</p>
+</div> 
+</div>
+<br><br>
+</section>
+
+    <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center ">
+            <span class="text-light sitename">RAZCOF - SOLUTIONS</span>
+          </a>
+          <p class="text-light">Somos uma empresa de tecnlogia que traz soluções eficientes para os seus problemas</p>
+          <div class="social-links d-flex mt-4">
+             <a href="" class="me-4 text-reset">
+
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google text-light"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram text-light"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin text-light"></i>
+      </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+         <h5 class="text-uppercase fw-bold mb-4 text-light">Contactos</h5>
+          <p class="text-light"><img src="location.png">  Luanda Sul, Rua 11 de Novembro</p>
+          <p class="text-light">
+            <img src="mail.png">
+            razcof.info@gmail.com
+          </p>
+          <p class="text-light"> <img src="telefone.png"> +244 934 344 244</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p class="text-light">© 2021 Copyright: Razcof - COMERCIO GERAL E PRESTAÇÃO DE SERVIÇOS, LDA</p>
+      <br>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>
